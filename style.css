@@ -10,15 +10,19 @@ body{
     margin-left: 10px;
 }
 
+.navbar{
+    position: fixed;
+    top:0;
+    right: 0;
+}
+
 .navbar ul{
     list-style-type: none;
     background-color: #fcf7eb;
-    padding: 0px;
-    margin: 0px;
+    padding: 2px;
+    margin: 2px;
     overflow: hidden;
-    position: absolute;
-    top:0;
-    right: 0;
+    
 
 }
 
@@ -27,23 +31,19 @@ body{
     text-decoration: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: large;
-    font-weight: bold;
+    font-weight: normal;
     color: #314F40;
-    padding-left: 3px;
     padding-top: 7px;
     padding-bottom: 7px;
     margin-top: 15px;
     margin-bottom: 10px;
     margin-right: 30px;
-    display: block;
     text-align: center;
 }
 
 .navbar a:hover{
-    background-color: #314F40;
-    color:#fcf7eb;
-    padding: 8px;
-    border-radius: 8px;
+    text-decoration: underline;
+    
 }
 
 .navbar li{
@@ -64,10 +64,34 @@ body{
 
 #quote{
     overflow: hidden;
-    position: fixed;
+    text-align: center;
+    margin-right: 0;
+    margin-left: 0;
     bottom: 0;
     background-color: #314F40;
     color: #fcf7eb;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    font-weight: normal;
+}
+
+#carolyn{
     font-size: small;
 }
+
+#links{
+    text-align: right;
+    margin-right: 25px;
+}
+
+#links a{
+    text-decoration: none;
+}
+
+#links img{
+    bottom: 0;
+    width: 37px;
+}
+
+
+
