@@ -1,5 +1,4 @@
 body{
-    margin: 10px;
     background-color: #fcf7eb;
 }
 
@@ -93,5 +92,8 @@ body{
     width: 37px;
 }
 
+#links ul{
+    list-style-type: none;
+}
 
 
