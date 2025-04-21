@@ -2,17 +2,22 @@ body{
     background-color: #fcf7eb;
 }
 
+#top{
+    overflow: auto;
+}
+
 #logo img{
-    text-align: left;
+    float: left;
      width: 300px;
      margin-top: 0px;
      margin-left: 10px;
  }
  
  .navbar{
-     position: fixed;
-     top:0;
-     right: 0;
+    float: right;
+    margin-top: -33px;
+    margin-right: -10px;
+     padding: 5px 5px;
  }
  
  .navbar ul{
@@ -20,7 +25,6 @@ body{
      padding: 2px;
      margin: 2px;
      overflow: hidden;
- 
  }
  
  .navbar a{
@@ -86,7 +90,7 @@ body{
  }
 
  #p2{
-    text-align: center;
+     text-align: center;
     color: #314F40;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: normal;
@@ -94,4 +98,39 @@ body{
     margin-left: 160px;
     line-height: 2;
  }
+
+ #quote{
+    text-align: center;
+    margin-right: 0;
+    margin-left: 0;
+    bottom: 0;
+    background-color: #314F40;
+    color: #fcf7eb;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    font-weight: normal;
+}
+
+#carolyn{
+    font-size: small;
+}
+
+#links{
+    text-align: right;
+    margin-right: 25px;
+}
+
+#links a{
+    text-decoration: none;
+}
+
+#links img{
+    bottom: 0;
+    width: 37px;
+    padding-bottom: 10px;
+}
+
+#links ul{
+    list-style-type: none;
+}
 
