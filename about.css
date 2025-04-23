@@ -210,3 +210,52 @@ body{
     line-height: 2;
 
 }
+
+.grid img{
+    width: 560px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.img-wrapper{
+    position: relative;
+    overflow: hidden;
+}
+
+.img-wrapper > img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.img-wrapper > .content{
+position: absolute;
+inset: 0;
+text-align: center;
+font-size: 1.8rem;
+font-weight: 400;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+padding: 1rem;
+background: rgba(255,255,255,.6);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.img-wrapper > img, 
+.img-wrapper > .content{
+    transition: 200ms ease-in-out
+}
+
+.img-wrapper > .content.fade{
+opacity:0;
+}
+
+.img-wrapper:hover > .content.fade{
+    opacity:1;
+    }
+
+
