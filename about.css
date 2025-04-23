@@ -77,13 +77,13 @@ body{
     color: #314F40;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 19px;
     margin-right: 160px;
     line-height: 2;
  }
 
  #pic2 img{
-    width: 500px;
+    width: 400px;
     margin-left: 55px;
     margin-right: 160px;
    float: right;
@@ -94,10 +94,38 @@ body{
     color: #314F40;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 19px;
     margin-left: 160px;
     line-height: 2;
  }
+
+ #p3{
+    text-align: center;
+     color: #314F40;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-weight: normal;
+     font-size: 19px;
+     margin-right: 160px;
+     line-height: 2;
+}
+
+#pic3 img{
+    width: 650px;
+    margin-left: 160px;
+    margin-right: 55px;
+   float: left;
+}
+
+
+#p4{
+    text-align: center;
+     color: #314F40;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-weight: normal;
+     font-size: 19px;
+     margin-right: 160px;
+     line-height: 2;
+  }
 
  #quote{
     text-align: center;
@@ -137,4 +165,16 @@ body{
 
 #resume{
     text-align: center;
+}
+
+#statement{
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    font-weight: normal;
+    color: #314F40;
+    line-height: 2;
+
 }
