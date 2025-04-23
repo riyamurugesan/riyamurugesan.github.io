@@ -59,6 +59,38 @@ body{
     color: #314F40;
  }
 
+
+.labs_container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.lab {
+    width: 45%;
+}
+
+ #bautch, #griffith {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0px;
+    color: #314F40;
+    text-align: center;
+ }
+
+ #bautchdescr, #griffithdescr {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0px;
+    font-size: large;
+    font-weight: normal;
+    color: #314F40;
+    line-height: 2;
+    float: left;
+    text-align: center;
+ }
+
+
+
  #pic1{
     overflow: auto;
  }

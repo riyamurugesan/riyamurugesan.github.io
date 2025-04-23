@@ -49,18 +49,6 @@ body{
     float: left;
 }
 
-
-#intro{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 45px;
-    font-weight: 250;
-    color: #314F40;
-    padding: 100px;
-    margin-right: 750px;
-    margin-left: 150px;
-    text-align: left;
-}
-
 #quote{
     overflow: hidden;
     text-align: center;
@@ -96,4 +84,38 @@ body{
     list-style-type: none;
 }
 
+#intro{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    font-weight: 250;
+    color: #314F40;
+    padding: 80px;
+    text-align: left;
+    flex-wrap: wrap;
+    margin-left: -65px;
+    transform: translateY(-15px);
+}
+
+.mainpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 10px;
+    margin-top: 35px;
+}
+
+
+.main{
+    text-align: center;
+    max-width: 600px;
+}
+
+
+#drawing img{
+    width: 430px;
+    margin-top: -10px;
+    transform: translateY(-50px);
+}
 
