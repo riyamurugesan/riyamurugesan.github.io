@@ -10,44 +10,42 @@ body{
 }
 
 .navbar{
-    position: fixed;
-    top:0;
-    right: 0;
-}
-
-.navbar ul{
-    list-style-type: none;
-    background-color: #fcf7eb;
-    padding: 2px;
-    margin: 2px;
-    overflow: hidden;
-    
-
-}
-
-.navbar a{
-    display: block;
-    text-decoration: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: large;
-    font-weight: normal;
-    color: #314F40;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    margin-right: 30px;
-    text-align: center;
-}
-
-.navbar a:hover{
-    text-decoration: underline;
-    
-}
-
-.navbar li{
-    float: left;
-}
+    float: right;
+    margin-top: -33px;
+    margin-right: -10px;
+     padding: 5px 5px;
+ }
+ 
+ .navbar ul{
+     list-style-type: none;
+     padding: 2px;
+     margin: 2px;
+     overflow: hidden;
+ }
+ 
+ .navbar a{
+     display: block;
+     text-decoration: none;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size: large;
+     font-weight: normal;
+     color: #314F40;
+     padding-top: 7px;
+     padding-bottom: 7px;
+     margin-top: 15px;
+     margin-bottom: 10px;
+     margin-right: 30px;
+     text-align: center;
+ }
+ 
+ .navbar a:hover{
+     text-decoration: underline;
+     
+ }
+ 
+ .navbar li{
+     float: left;
+ }
 
 #quote{
     overflow: hidden;
@@ -117,5 +115,6 @@ body{
     width: 430px;
     margin-top: -10px;
     transform: translateY(-50px);
+    overflow: auto;
 }
 
