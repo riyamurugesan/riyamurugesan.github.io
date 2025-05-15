@@ -1,2 +1,2 @@
-#### hi hi! this is my personal website (and first independent coding project)!
+#### hi hi! this is my personal website!
 ##### riyamurugesan.github.io
