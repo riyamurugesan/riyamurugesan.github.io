@@ -16,7 +16,7 @@ body{
  .navbar{
     float: right;
     margin-top: -33px;
-    margin-right: -10px;
+    margin-right: 0px;
      padding: 5px 5px;
  }
  
@@ -71,33 +71,13 @@ body{
     width: 45%;
 }
 
- #bautch, #griffith {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 0px;
-    color: #314F40;
-    text-align: center;
- }
-
- #bautchdescr, #griffithdescr {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 0px;
-    font-size: large;
-    font-weight: normal;
-    color: #314F40;
-    line-height: 2;
-    float: left;
-    text-align: center;
- }
-
-
-
  #pic1{
     overflow: auto;
  }
 
 
  #pic1 img{
-    width: 400px;
+    width: 540px;
     margin-left: 160px;
     margin-right: 55px;
    float: left;
@@ -109,7 +89,7 @@ body{
     color: #314F40;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: normal;
-    font-size: 19px;
+    font-size: 25px;
     margin-right: 160px;
     line-height: 2;
  }
